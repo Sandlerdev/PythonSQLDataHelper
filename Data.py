@@ -62,5 +62,8 @@ class Data:
         if resolution == 0:
             return self.Wide_df
         else:
-            return self.Wide_df.resample(f'{resolution}min').ffill()
+            df = self.Wide_df.resample(f'{resolution}min').ffill()
+            self.Wide_df = df
+            return self.Wide_df
+           
 
