@@ -3,3 +3,7 @@ Small Class that simplifies fetching data from SQL Table configured for Narrow T
 
 - This should work as is for SQL DB created from FactoryTalk Edge Gateway.
 - Will also work with the default database created from this solution [Blob Parser](https://github.com/Sandlerdev/BlobParser)
+
+The included Notebook file "Data Samples.ipynb" provides very basic examples of instantiating the class and fetching data. 
+
+**Github does not appear to render notebooks consistently these days - suggest viewing it locally on your machine..**
